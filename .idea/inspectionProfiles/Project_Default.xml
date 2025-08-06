@@ -1,0 +1,66 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="44">
+            <item index="0" class="java.lang.String" itemvalue="google-cloud-bigquery" />
+            <item index="1" class="java.lang.String" itemvalue="protobuf" />
+            <item index="2" class="java.lang.String" itemvalue="fastapi" />
+            <item index="3" class="java.lang.String" itemvalue="analyticsconfigauthpack" />
+            <item index="4" class="java.lang.String" itemvalue="google-cloud-storage" />
+            <item index="5" class="java.lang.String" itemvalue="python-shared-utils" />
+            <item index="6" class="java.lang.String" itemvalue="PyJWT" />
+            <item index="7" class="java.lang.String" itemvalue="google-cloud-aiplatform" />
+            <item index="8" class="java.lang.String" itemvalue="PyYAML" />
+            <item index="9" class="java.lang.String" itemvalue="Jinja2" />
+            <item index="10" class="java.lang.String" itemvalue="google-cloud-pubsub" />
+            <item index="11" class="java.lang.String" itemvalue="google-cloud-bigquery-storage" />
+            <item index="12" class="java.lang.String" itemvalue="pyarrow" />
+            <item index="13" class="java.lang.String" itemvalue="SQLAlchemy" />
+            <item index="14" class="java.lang.String" itemvalue="requests" />
+            <item index="15" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="16" class="java.lang.String" itemvalue="google-cloud-logging" />
+            <item index="17" class="java.lang.String" itemvalue="pandas" />
+            <item index="18" class="java.lang.String" itemvalue="python-json-logger" />
+            <item index="19" class="java.lang.String" itemvalue="pylint" />
+            <item index="20" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="21" class="java.lang.String" itemvalue="PyMySQL" />
+            <item index="22" class="java.lang.String" itemvalue="fastapi_versioning" />
+            <item index="23" class="java.lang.String" itemvalue="gcsfs" />
+            <item index="24" class="java.lang.String" itemvalue="pytest" />
+            <item index="25" class="java.lang.String" itemvalue="local-crontab" />
+            <item index="26" class="java.lang.String" itemvalue="starlette" />
+            <item index="27" class="java.lang.String" itemvalue="hypercorn" />
+            <item index="28" class="java.lang.String" itemvalue="fastapi-utils" />
+            <item index="29" class="java.lang.String" itemvalue="python-multipart" />
+            <item index="30" class="java.lang.String" itemvalue="fastapi-versioning" />
+            <item index="31" class="java.lang.String" itemvalue="MarkupSafe" />
+            <item index="32" class="java.lang.String" itemvalue="deepdiff" />
+            <item index="33" class="java.lang.String" itemvalue="apache-airflow" />
+            <item index="34" class="java.lang.String" itemvalue="kfp" />
+            <item index="35" class="java.lang.String" itemvalue="httpx" />
+            <item index="36" class="java.lang.String" itemvalue="ddtrace" />
+            <item index="37" class="java.lang.String" itemvalue="shapely" />
+            <item index="38" class="java.lang.String" itemvalue="apache-airflow-providers-apache-beam" />
+            <item index="39" class="java.lang.String" itemvalue="pytest-cov" />
+            <item index="40" class="java.lang.String" itemvalue="apache-airflow-providers-cncf-kubernetes" />
+            <item index="41" class="java.lang.String" itemvalue="apache-airflow-providers-google" />
+            <item index="42" class="java.lang.String" itemvalue="apache-airflow-providers-snowflake" />
+            <item index="43" class="java.lang.String" itemvalue="pendulum" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
