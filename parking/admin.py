@@ -12,3 +12,4 @@ class ParkingLotAdmin(admin.ModelAdmin):
 class ParkingSlotAdmin(admin.ModelAdmin):
     list_display = ['parking_lot', 'slot_number', 'is_available']
     search_fields = ['name']
+

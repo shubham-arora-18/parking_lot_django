@@ -25,17 +25,4 @@ class Ticket(models.Model):
     total_charge = models.DecimalField(max_digits=10, decimal_places=2, default=0)
     entry_gate = models.IntegerField(default=0)
 
-    def clean(self):
-        super().clean()
-        if self.parking_slot and self.parking_slot.parking_lot:
-            max_gates = self.parking_slot.parking_lot.total_entry_gate
-            if not (1 <= self.entry_gate <= max_gates):
-                raise ValidationError({
-                    'entry_gate': f'Entry gate must be between 1 and {max_gates}'
-                })
-
-    def save(self, *args, **kwargs):
-        self.full_clean()  # This calls clean() method
-        super().save(*args, **kwargs)
-
 
